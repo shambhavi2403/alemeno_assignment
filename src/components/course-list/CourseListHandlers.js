@@ -294,8 +294,8 @@ const CourseListHandlers = () => {
         setTimeout(async () => {
 
             try {
-                const response = await axios.get("https://dpqkqd-3000.csb.app/courses", {
-                    withCredentials: true
+                const response = await axios.get("https://courses.saumay.workers.dev", {
+                    withCredentials: false
                 })
 
                 if (response.data) {
